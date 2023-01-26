@@ -1,14 +1,16 @@
 const express = require('express');
-var cors = require('cors')
 const app = express();
-var bodyParser = require('body-parser')
+
+let cors = require('cors')
+let bodyParser = require('body-parser')
+
+let users = []
+
 app.use( bodyParser.json() );       // to support JSON-encoded bodies
 app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
   extended: true
 })); 
 app.use(cors())
-
-let users = []
 
 const products = [
   {
