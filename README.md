@@ -1,3 +1,3 @@
-This is a mocker server for the next-js-auth example.
-It built using Express. 
-Execute it by "yarn dev"
+1. This is a mocker server for the next-js-auth example.
+2. It built using Express. 
+3. Execute it by "yarn dev"
